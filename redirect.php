@@ -3,7 +3,7 @@
 			
 			$conn = mysqli_connect('127.11.40.130', 'adminbhiX174', 'zjzfwiZiP6Np', 'sportskaki', 3306 );
 			
-			
+			echo 'start';
 			
 			if(!$conn)
 			{ 	echo "Failed to connect to MySQL: ";
@@ -16,8 +16,8 @@
 				echo $row[1]." ".$row[2];
 			}
 			mysqli_close($conn);
-			
-			
+			echo $query;
+			echo 'start';
 			//header( 'Location: http://iits.smu.edu.sg/cyber-security/phished' ) ;
 			
 			//http://myapp-inhouseleague.rhcloud.com/phishing/redirect.php?name=1123
